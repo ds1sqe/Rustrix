@@ -13,7 +13,8 @@ smallvec = { version = "1.13.2", features = ["const_generics"] }
 disjoint-sets = "0.4.2"
 im = "15.1.0"
 petgraph = "0.7.1"
-sparta-proc-macros = { path = "../rust-proc-macros", version = "0.1.0" }
+rustrix-proc-macros = { path = "rustrix-proc-macros", version = "0.1.0" }
+rayon = "1.10.0"
 
 proc-macro2 = { version = "1.0.92", features = ["span-locations"] }
 quote = "1.0.38"
