@@ -1,0 +1,12 @@
+[workspace]
+members=["rustrix/","rustrix-proc-macros"]
+resolver = "2"
+publish = false
+
+[workspace.package]
+license = "MIT"
+version = "0.1.0"
+edition = "2021"
+authors = ["ds1sqe@mensakorea.org"]
+
+[workspace.dependencies]
